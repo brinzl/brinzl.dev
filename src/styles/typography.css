@@ -1,0 +1,60 @@
+:root {
+  --font-mono:
+    var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, "SF Mono", Menlo,
+    Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --font-size: 13px;
+  --line-height: 24px;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: var(--space-4);
+}
+
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  color: var(--color-muted);
+  font-weight: 400;
+}
+
+h1::before {
+  content: "# ";
+}
+h2::before {
+  content: "## ";
+}
+h3::before {
+  content: "### ";
+}
+h4::before {
+  content: "#### ";
+}
+h5::before {
+  content: "##### ";
+}
+h6::before {
+  content: "###### ";
+}

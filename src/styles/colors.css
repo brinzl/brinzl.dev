@@ -1,0 +1,31 @@
+:root {
+  color-scheme: dark;
+
+  --color-gray: #8e8e95;
+
+  --color-gray020: color-mix(in srgb, white 95%, var(--color-gray));
+  --color-gray040: color-mix(in srgb, white 93%, var(--color-gray));
+  --color-gray060: color-mix(in srgb, white 91%, var(--color-gray));
+  --color-gray080: color-mix(in srgb, white 85%, var(--color-gray));
+  --color-gray100: color-mix(in srgb, white 80%, var(--color-gray));
+  --color-gray200: color-mix(in srgb, white 60%, var(--color-gray));
+  --color-gray300: color-mix(in srgb, white 40%, var(--color-gray));
+  --color-gray400: color-mix(in srgb, white 20%, var(--color-gray));
+  --color-gray500: var(--color-gray);
+  --color-gray600: color-mix(in srgb, black 15%, var(--color-gray));
+  --color-gray700: color-mix(in srgb, black 30%, var(--color-gray));
+  --color-gray800: color-mix(in srgb, black 45%, var(--color-gray));
+  --color-gray900: color-mix(in srgb, black 75%, var(--color-gray));
+  --color-gray920: color-mix(in srgb, black 80%, var(--color-gray));
+  --color-gray940: color-mix(in srgb, black 85%, var(--color-gray));
+  --color-gray960: color-mix(in srgb, black 90%, var(--color-gray));
+  --color-gray980: color-mix(in srgb, black 95%, var(--color-gray));
+
+  --color-accent: #ffff00;
+  --color-link: #a8a4ff;
+
+  --color-bg: var(--color-gray940);
+  --color-fg: var(--color-gray100);
+  --color-muted: var(--color-gray400);
+  --color-border: var(--color-gray800);
+}

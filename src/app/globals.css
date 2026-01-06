@@ -1,0 +1,34 @@
+@import url(../styles/reset.css);
+@import url(../styles/colors.css);
+@import url(../styles/typography.css);
+@import url(../styles/layout.css);
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-mono);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  -webkit-font-smoothing: antialiased;
+  margin-inline: auto;
+  padding: 12px 40px;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cursor {
+  display: inline-block;
+  width: 0.6em;
+  height: 1.2em;
+  background: currentColor;
+  margin-inline-start: 0.5em;
+  vertical-align: text-top;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
